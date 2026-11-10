@@ -1,13 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
-    
+
 <body>
-    <h1>Hello World!</h1>
-    <p>My website is live 🎉</p>
+
+    <h1 id="heading">Hello This will be the best website</h1>
+
+    <button onclick="changeColor()">Change Color</button>
+
+    <!-- <script>
+        function changeColor() {
+            let colors = ["red", "blue", "green", "purple", "orange"];
+            let random = Math.floor(Math.random() * colors.length);
+
+            document.getElementById("heading").style.backgroundColor = colors[random];
+        }
+    </script> -->
+
     <script src="script.js"></script>
+
 </body>
 </html>
